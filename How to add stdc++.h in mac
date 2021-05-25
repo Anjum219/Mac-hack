@@ -1,1 +1,28 @@
+At first, install gcc and copy the directory where gcc is installed.
+The directiry can be checked using-
 
+  $ gcc --version
+  
+It will return its installation directory. Go to that directory.
+
+  $ cd /Library/Developer/CommandLineTools/usr/bin
+  
+Now run the commands from here-
+
+  $ ../include
+  $ sudo mkdir bits
+  $ sudo chown user bits/
+  
+  Here user is your user name in the mac
+  
+  $ sudo chmod 777 bits/
+  $ cd bits/
+  $ touch stdc++.h
+  
+Now open this newly created file in TextEdit editor
+
+  $ open -a TextEdit stdc++.h
+  
+Copy the content of https://github.com/Anjum219/Mac-hack/blob/main/stdc%2B%2B.h
+and paste it in your file. Save it. Now you can include <bits/stdc++.h> in your 
+cpp code.
