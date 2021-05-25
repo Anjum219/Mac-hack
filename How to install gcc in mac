@@ -1,0 +1,2 @@
+$ cd $(brew --repo homebrew/core)
+$ brew install gcc
